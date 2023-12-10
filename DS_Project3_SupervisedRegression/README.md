@@ -12,30 +12,33 @@ Read the column description in the link below:
 https://github.com/MojjoMujju/DS_Project_Portfolio/blob/main/DS_Project3_SupervisedRegression/assets/data_description.docx
 
 ### Notebooks:
-#### EDA (Exploratory Data Analysis) : 
-- Check dataset information.
-- Check dependent column proportion.
-- Check missing values.
-- Numerical and categorical column analysis.
-- Check the Correlation in some columns to get Insight.
-- EDA Insight
-
-#### FE (Feature Engineering):
-- Dataset cleaning (drop columns and remove unused values)
-- Data encoding
-- Handling missing values
-- Features scaling
-
-#### Model Preparation
+#### Data Preparation
 - Train test split
+
+#### EDA (Exploratory Data Analysis) & FE (Feature Engineering) : 
+- Numerical and categorical column analysis (Handling Missing Values, Data Cleaning).
+- Drop unused columns.
+- Drop outlier.
+- Transform Categorical features into Binary features.
+- Log normalization.
 
 #### Modelling
 - Make models
-- Models evaluation (Confusional matrix - Test various neighbors - classification report)
+- Models evaluation (RMSE - RSquare)
 - Save the model to pickle
 
 ### Model Result:
-![image](https://github.com/MojjoMujju/DS_Project_Portfolio/assets/84460310/d13bccf3-a627-4454-b3e7-082f570f4bbc)
+![image](https://github.com/MojjoMujju/DS_Project_Portfolio/assets/84460310/41a42c52-1d15-41bc-a941-2d2774f77428)
 
 ### Report:
-From the results of machine learning modeling, it can be concluded that the best model for predicting heart disease is using the KNN algorithm with a number of neighbors equal to 5.
+From the evaluation results of the models conducted, several key conclusions and insights can be drawn:
+- Lasso Regression has the highest R-squared value (0.9103), indicating that this model explains the variation in the target very well.
+- XGBoost and Ridge also exhibit good R-squared values, with scores of 0.9096 and 0.9087, respectively.
+- LightGBM has a slightly lower R-squared value compared to the other models (0.8942), indicating slightly lower performance in explaining the target's variation.
+- Lasso Regression has the lowest RMSE (0.1184), suggesting that this model has the lowest level of prediction error among the models.
+- XGBoost and Ridge have nearly equally low RMSE values, around 0.1188 and 0.1195, respectively.
+- LightGBM has a slightly higher RMSE (0.1286), indicating that this model has a higher level of prediction error compared to the other models.
+
+Model Selection:
+
+Based on the above results, Lasso Regression is a good choice as it has a high R-squared value and low prediction error.
