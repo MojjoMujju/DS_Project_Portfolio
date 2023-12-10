@@ -1,8 +1,6 @@
 # House Price Prediction
 Welcome to this repository! This repository focuses on a house price prediction project, in analyzing and modeling data related to predicting house prices. The project's goal is to deepen our understanding of factors influencing house prices and to build a predictive model facilitating early identification of price trends.
 
-![Uploading image.png…]()
-
 ## Repository Contents:
 ### Dataset: 
 - This dataset consists of 1460 rows and 81 columns.
