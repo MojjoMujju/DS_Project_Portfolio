@@ -8,8 +8,8 @@ It is the dataset of a U.S. bank customer for getting information on whether a c
 - The dependent variable refers to Exited.
 
 ### Features:
- 1. RowNumber: 
- 2. CustomerId:
+ 1. RowNumber.
+ 2. CustomerId.
  3. Surname: Surname
  4. CreditScore: Credit score
  5. Geography: Country (Germany / France / Spain)
